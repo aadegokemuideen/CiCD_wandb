@@ -1,13 +1,11 @@
-name: ci-github-action-demo
-
+name: Github Action Demo
 on: [push]
-
 jobs:
-  my-first-GitHub-action:
+  my-first-job:
     runs-on: ubuntu-latest
     steps:
       - name: hello
-      - run: | 
-          echo "🎉 Hello"
+        run: | 
+           echo "Hello"
      
 
