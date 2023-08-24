@@ -1,6 +1,7 @@
 name: ci-github-action-demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+
 on: [push]
+
 jobs:
   my-first-GitHub-action:
     runs-on: ubuntu-latest
